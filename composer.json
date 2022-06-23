@@ -1,0 +1,29 @@
+{
+    "name": "jacksonbicalho/simple-worker",
+    "description": "Simple Worker",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "SimpleWorker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jackson Bicalho",
+            "email": "jacksonbicalho@gmai.com",
+            "homepage": "https://jacksonbicalho.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "bin": [
+        "src/bin/listener"
+    ]
+}
